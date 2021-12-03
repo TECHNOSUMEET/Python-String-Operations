@@ -1,0 +1,5 @@
+# Write a Python program to get the last part of a string before a specified character.
+str1 = str(input('ENTER THE STRING--:'))
+v = str1.index('@')
+str2 = str1[:v]
+print(str2)
