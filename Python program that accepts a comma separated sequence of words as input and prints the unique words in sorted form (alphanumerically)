@@ -1,0 +1,6 @@
+str1 = 'red,green,yellow,white'
+print('INPUT is--: ', str1)
+lst = str1.split(',')
+lst.sort()
+str2 = ','.join(lst)
+print('OUTPUT is--: ', str2)
