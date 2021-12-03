@@ -1,0 +1,7 @@
+"""Write a Python program to remove the nth index character from a nonempty string."""
+str1 = str(input('ENTER THE STRING--:'))
+n = int(input('ENTER THE INDEX OF CHARACTER TO BE DELETED--:'))
+lst1 = list(str1)
+del lst1[n]
+str2 = ''.join(lst1)
+print(str2)
