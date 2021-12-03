@@ -1,0 +1,7 @@
+str1 = 'Hi Hello How are you?'
+st1 = set(str1)
+lst1 = list(st1)
+lst1.sort()
+print(lst1)
+for i in lst1:
+    print("COUNT OF "+i+" is --: ", str1.count(i))
