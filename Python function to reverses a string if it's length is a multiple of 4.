@@ -1,0 +1,12 @@
+# Write a Python function to reverses a string if it's length is a multiple of 4.
+str1 = str(input('ENTER THE STRING--:'))
+def chec_div(st1):
+    if len(st1) %4 == 0:
+        lst = list(st1)
+        lst.reverse()
+        str2 = ''.join(lst)
+        print(str2)
+    else:
+        print('String Length Problem---:', len(st1))
+
+chec_div(str1)
