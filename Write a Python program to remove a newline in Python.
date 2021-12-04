@@ -1,0 +1,15 @@
+# Write a Python program to remove a newline in Python.
+str1 = 'Hi.....How Are You? \n What is Your Name?'
+ls1 = list(str1)
+str2 = ''
+for i in ls1:
+    if '\n' in ls1:
+        ls1.remove('\n')
+        str2 = ''.join(ls1)
+        break
+    else:
+        print('NO NEW LINE FOUND')
+        break
+
+
+print(str2)
