@@ -1,0 +1,7 @@
+str1='..go(o,gle.*()'
+print(str1)
+str1=str1.strip('.*(),')
+str1=str1.replace(',','')
+str1=str1.replace('(','')
+
+print(str1)
